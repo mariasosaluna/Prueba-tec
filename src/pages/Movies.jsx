@@ -71,7 +71,7 @@ const Movies = () => {
           {loading && !error && <div>Loading...</div>}
           {error && <div>Oops! Something went wrong...</div>}
           {!loading && !error && (
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div className="grid grid-cols-2 md:grid-cols-5 xl:grid-cols-7 gap-4 md:gap-8">
               {movies.map((item, index) => {
                 return (
                   <Card

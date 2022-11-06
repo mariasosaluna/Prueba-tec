@@ -9,9 +9,9 @@ const Card = (props) => {
 
   return (
     <>
-      <div className="bg-gray-700 hover:opacity-70 hover:border-4 shadow-lg">
+      <div className="bg-gray-700 hover:opacity-70 hover:border-4 box-border shadow-lg max-h-72 overflow-hidden w-38 md:w-26">
         <div
-          className="text-white font-mono"
+          className="text-white font-mono py-2"
           onClick={() => setShowPopup(true)}
         >
           {props.title}
